@@ -9,6 +9,7 @@ Plugin 'vim-airline/vim-airline-themes'
 Plugin 'whatyouhide/vim-gotham'
 Plugin 'kien/ctrlp.vim'
 Plugin 'tpope/vim-surround'
+Plugin 'kchmck/vim-coffee-script'
 
 call vundle#end()
 filetype plugin indent on
