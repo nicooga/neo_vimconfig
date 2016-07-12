@@ -2,21 +2,20 @@ set nocompatible
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
-" Core
-  " Navigation
-  Plugin 'ctrlpvim/ctrlp.vim'
-  Plugin 'scrooloose/nerdtree'
-  Plugin 'tpope/vim-eunuch'
+" Navigation
+Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'scrooloose/nerdtree'
+Plugin 'tpope/vim-eunuch'
 
-  " Version Control
-  Plugin 'Xuyuanp/nerdtree-git-plugin'
-  Plugin 'tpope/vim-fugitive'
-  Plugin 'airblade/vim-gitgutter'
+" Version Control
+Plugin 'Xuyuanp/nerdtree-git-plugin'
+Plugin 'tpope/vim-fugitive'
+Plugin 'airblade/vim-gitgutter'
 
-  " Typing
-  Plugin 'jiangmiao/auto-pairs'
-  Plugin 'scrooloose/nerdcommenter'
-  Plugin 'Shougo/neocomplete.vim'
+" Typing
+Plugin 'jiangmiao/auto-pairs'
+Plugin 'scrooloose/nerdcommenter'
+Plugin 'Shougo/neocomplete.vim'
 
 " Aestethic
 Plugin 'vim-airline/vim-airline'
