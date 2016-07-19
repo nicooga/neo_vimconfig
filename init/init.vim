@@ -1,5 +1,5 @@
 if has('gui_running')
-  set guifont=monofur\ for\ Powerline\ Bold\ 10
+  set guifont=MonofurForPowerline\ Nerd\ Font\ Bold\ 10
   colorscheme gotham
 else
   colorscheme gotham256
@@ -59,3 +59,6 @@ let g:syntastic_html_tidy_ignore_errors=["proprietary attribute \"ng-"]
 
 " Enable plugins to access filetype
 filetype plugin on
+
+" Enable icons!
+set encoding=utf8
