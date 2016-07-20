@@ -1,3 +1,9 @@
+"" javascript, ecmascript
+"au bufnewfile,bufread *.js,*.javascript,*.es,*.jsx   setf javascript
+
+filetype off
+filetype plugin indent on
+
 if has('gui_running')
   set guifont=MonofurForPowerline\ Nerd\ Font\ Bold\ 10
   colorscheme gotham
