@@ -8,7 +8,7 @@ call vundle#begin()
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'townk/vim-autoclose'
 Plugin 'scrooloose/nerdcommenter'
-Plugin 'valloric/youcompleteme'
+"Plugin 'valloric/youcompleteme'
 Plugin 'scrooloose/nerdtree'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
 
@@ -24,7 +24,6 @@ Plugin 'whatyouhide/vim-gotham'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'elixir-lang/vim-elixir'
 Plugin 'pangloss/vim-javascript'
-Plugin 'jelera/vim-javascript-syntax'
 
 call vundle#end()
 filetype plugin indent on
