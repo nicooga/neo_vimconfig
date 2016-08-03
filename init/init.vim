@@ -24,9 +24,6 @@ set guioptions-=L  "remove left-hand scroll bar
 " Show line numbers
 set nu
 
-" Let status line use powerline symbols
-let g:airline_powerline_fonts = 1
-
 " Save buffers on focus lose
 au FocusLost * :wa
 
@@ -34,17 +31,10 @@ au FocusLost * :wa
 set listchars=trail:·
 set list
 
-" Use vim-airline tab style
-let g:airline#extensions#tabline#enabled = 1
-set laststatus=2
-
 " Use 2 spaces instead of tabs
 set expandtab
 set tabstop=2
 set shiftwidth=2
-
-" Set Airline Theme
-let g:airline_theme='base16'
 
 " Use word wrap for long lines
 set wrap
@@ -57,6 +47,9 @@ set wildignore+=*/bower_components/*,*/node_modules
 
 " Ignore HTML warnings related to Angular
 let g:syntastic_html_tidy_ignore_errors=["proprietary attribute \"ng-"]
+
+" Enable neocomplete
+let g:neocomplete#enable_at_startup = 1
 
 " Enable plugins to access filetype
 filetype plugin on
