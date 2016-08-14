@@ -3,7 +3,7 @@ filetype plugin indent on
 
 if has('gui_running')
   set guifont=MonofurForPowerline\ Nerd\ Font\ Bold\ 10
-  colorscheme eva
+  colorscheme badwolf
 else
   set t_Co=256
   colorscheme gotham256
@@ -12,14 +12,20 @@ endif
 " Use the system clipboard
 set clipboard=unnamedplus
 
+" Highlight line under the cursor
+set cursorline
+
+" Highlight all appearances of match when using `/`
+set hlsearch
+
 " Use dark background, ffs I need my corneas
 set background=dark
 
 " Remove all fking nav bars
-set guioptions-=m  "remove menu bar
-set guioptions-=T  "remove toolbar
-set guioptions-=r  "remove right-hand scroll bar
-set guioptions-=L  "remove left-hand scroll bar
+set guioptions-=m "menu bar
+set guioptions-=T "toolbar
+set guioptions-=r "right-hand scroll bar
+set guioptions-=L "left-hand scroll bar
 
 " Show line numbers
 set nu
@@ -30,11 +36,6 @@ au FocusLost * :wa
 " Show trailing white spaces and more
 set listchars=trail:·
 set list
-
-" Use 2 spaces instead of tabs
-set expandtab
-set tabstop=2
-set shiftwidth=2
 
 " Use word wrap for long lines
 set wrap
