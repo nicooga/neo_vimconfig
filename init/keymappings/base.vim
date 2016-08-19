@@ -12,6 +12,8 @@ nnoremap <leader>ev :tabedit ~/.vim<CR>
 " Reload vim config
 nnoremap <leader>sv :source $MYVIMRC<CR>
 nnoremap <leader>pi :PluginInstall<CR>
+" Open package.json
+nnoremap <leader>ep :tabedit package.json<CR>
 
 " Use Tab key to indent blocks
 noremap <Tab> >gv
@@ -21,15 +23,16 @@ noremap <S-Tab> <gv
 noremap <C-n> :NERDTreeToggle<CR>
 
 " Tab navigation like Firefox.
-nnoremap <C-S-tab> :tabprevious<CR>
-nnoremap <C-tab>   :tabnext<CR>
-nnoremap <C-t>     :tabnew<CR>
-inoremap <C-S-tab> <Esc>:tabprevious<CR>i
-inoremap <C-tab>   <Esc>:tabnext<CR>i
-inoremap <C-t>     <Esc>:tabnew<CR>
+nnoremap <C-S-tab>  :tabprevious<CR>
+nnoremap <C-tab>    :tabnext<CR>
+nnoremap <C-t>      :tabnew<CR>
+inoremap <C-S-tab>  <Esc>:tabprevious<CR>i
+inoremap <C-tab>    <Esc>:tabnext<CR>i
+inoremap <C-t>      <Esc>:tabnew<CR>
 nnoremap <C-Delete> :tabclose<CR>
 
-" Tabularize mappings
-" Indent assignments
-noremap <leader>a= :Tabularize /=<CR>
-noremap <leader>a, :Tabularize /:\zs/l1c0<CR>
+" Move line down and up
+vnoremap <C-k> DkPgv
+vnoremap <C-j> Dpgv
+nnoremap <C-k> ddkP
+nnoremap <C-j> ddp

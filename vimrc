@@ -32,8 +32,9 @@ Plugin 'pangloss/vim-javascript'
 Plugin 'othree/yajs.vim'
 Plugin 'digitaltoad/vim-pug'
 Plugin 'evanmiller/nginx-vim-syntax'
+Plugin 'jwalton512/vim-blade'
 
 call vundle#end()
 
 " Source initialization files
-runtime! init/**.vim
+runtime! init/**/*.vim
