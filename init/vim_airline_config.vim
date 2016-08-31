@@ -8,6 +8,3 @@ let g:airline#extensions#tabline#fnamecollapse = 1
 " Use vim-airline tab style
 let g:airline#extensions#tabline#enabled = 1
 set laststatus=2
-
-" Set Airline Theme
-let g:airline_theme='base16'

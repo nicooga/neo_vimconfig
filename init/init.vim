@@ -22,9 +22,6 @@ set guioptions-=L "left-hand scroll bar
 " Show line numbers
 set nu
 
-" Save buffers on focus lose
-au FocusLost * :wa
-
 " Show trailing white spaces and more
 set listchars=trail:·
 set list

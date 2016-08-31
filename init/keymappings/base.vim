@@ -7,6 +7,13 @@ noremap <Down> <nop>
 noremap <Left> <nop>
 noremap <Right> <nop>
 
+" Disable ex -fuking- mode
+nnoremap Q <nop>
+
+" Enter macros easyer
+nnoremap <leader>am :normal @
+vnoremap <leader>am :normal @
+
 " Open vim config directory in a new window
 nnoremap <leader>ev :tabedit ~/.vim<CR>
 " Reload vim config
@@ -14,6 +21,8 @@ nnoremap <leader>sv :source $MYVIMRC<CR>
 nnoremap <leader>pi :PluginInstall<CR>
 " Open package.json
 nnoremap <leader>ep :tabedit package.json<CR>
+" Open brunch-config.js
+nnoremap <leader>eb :tabedit brunch-config.js<CR>
 
 " Use Tab key to indent blocks
 noremap <Tab> >gv

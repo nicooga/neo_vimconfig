@@ -2,10 +2,11 @@ set nocompatible
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
-" Navigation
+" Navigation and other core stuff
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'scrooloose/nerdtree'
-Plugin 'tpope/vim-eunuch'
+Plugin 'tpope/vim-eunuch' " Git helpers
+Plugin '907th/vim-auto-save'
 
 " Version Control
 Plugin 'Xuyuanp/nerdtree-git-plugin'
@@ -17,6 +18,7 @@ Plugin 'jiangmiao/auto-pairs'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'Shougo/neocomplete.vim'
 Plugin 'godlygeek/tabular'
+Plugin 'ervandew/supertab'
 
 " Aestethic
 Plugin 'nathanaelkane/vim-indent-guides'
