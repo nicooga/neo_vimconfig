@@ -7,6 +7,7 @@ Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'tpope/vim-eunuch' " Git helpers
 Plugin '907th/vim-auto-save'
+Plugin 'severin-lemaignan/vim-minimap'
 
 " Version Control
 Plugin 'Xuyuanp/nerdtree-git-plugin'
@@ -35,6 +36,9 @@ Plugin 'othree/yajs.vim'
 Plugin 'digitaltoad/vim-pug'
 Plugin 'evanmiller/nginx-vim-syntax'
 Plugin 'jwalton512/vim-blade'
+Plugin 'slashmili/alchemist.vim'
+Plugin 'slime-lang/vim-slime-syntax'
+Plugin 'suan/vim-instant-markdown'
 
 call vundle#end()
 

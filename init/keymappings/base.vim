@@ -45,3 +45,6 @@ vnoremap <C-k> DkPgv
 vnoremap <C-j> Dpgv
 nnoremap <C-k> ddkP
 nnoremap <C-j> ddp
+
+" Replace word under cursor
+nnoremap <Leader>rw :%s/\<<C-r><C-w>\>/
