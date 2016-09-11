@@ -5,6 +5,7 @@ Grew tired of my buggy vim config. Doing a fresh config with [Vundle][1] instead
 
 ~~~bash
 git clone https://github.com/nicooga/neo_vimconfig ~/.vim
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 vim +PluginInstall +qall # Install plugins
 ~~~
 
