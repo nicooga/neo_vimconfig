@@ -39,6 +39,10 @@ Plugin 'jwalton512/vim-blade'
 Plugin 'slashmili/alchemist.vim'
 Plugin 'slime-lang/vim-slime-syntax'
 Plugin 'suan/vim-instant-markdown'
+Plugin 'wavded/vim-stylus'
+Plugin 'ekalinin/Dockerfile.vim'
+Plugin 'slim-template/vim-slim'
+Plugin 'ap/vim-css-color'
 
 call vundle#end()
 

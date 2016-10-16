@@ -10,6 +10,9 @@ noremap <Right> <nop>
 " Disable ex -fuking- mode
 nnoremap Q <nop>
 
+" Quit buffer hotkey
+nnoremap <leader>q :q<CR>
+
 " Enter macros easyer
 nnoremap <leader>am :normal @
 vnoremap <leader>am :normal @
