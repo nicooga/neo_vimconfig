@@ -8,6 +8,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'tpope/vim-eunuch' " Git helpers
 Plugin '907th/vim-auto-save'
 Plugin 'severin-lemaignan/vim-minimap'
+Plugin 'dkprice/vim-easygrep'
 
 " Version Control
 Plugin 'Xuyuanp/nerdtree-git-plugin'
