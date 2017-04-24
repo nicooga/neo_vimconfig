@@ -2,7 +2,7 @@ set background=dark
 
 if has('gui_running')
   set guifont=MonofurForPowerline\ Nerd\ Font\ Bold\ 10
-  colorscheme birds-of-paradise
+  colorscheme PaperColor
   let g:airline_theme='base16'
 else
   set t_Co=256
