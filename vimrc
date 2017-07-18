@@ -44,6 +44,8 @@ Plugin 'wavded/vim-stylus'
 Plugin 'ekalinin/Dockerfile.vim'
 Plugin 'slim-template/vim-slim'
 Plugin 'ap/vim-css-color'
+Plugin 'cespare/vim-toml'
+Plugin 'robbles/logstash.vim'
 
 call vundle#end()
 
