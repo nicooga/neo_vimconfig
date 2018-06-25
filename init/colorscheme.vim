@@ -1,7 +1,7 @@
 set background=dark
 
 if has('gui_running')
-  set guifont=MonofurForPowerline\ Nerd\ Font\ Bold\ 10
+  set guifont=monofur\ for\ Powerline\ 10
   let g:airline_theme='base16'
 
   colorscheme gruvbox
