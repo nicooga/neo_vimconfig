@@ -28,6 +28,7 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'ryanoasis/vim-devicons'
 Plugin 'flazz/vim-colorschemes'
+Plugin 'kien/rainbow_parentheses.vim'
 
 " Language specific
 Plugin 'kchmck/vim-coffee-script'
@@ -35,7 +36,6 @@ Plugin 'elixir-lang/vim-elixir'
 Plugin 'pangloss/vim-javascript'
 Plugin 'othree/yajs.vim'
 Plugin 'digitaltoad/vim-pug'
-Plugin 'evanmiller/nginx-vim-syntax'
 Plugin 'jwalton512/vim-blade'
 Plugin 'slashmili/alchemist.vim'
 Plugin 'slime-lang/vim-slime-syntax'
@@ -46,6 +46,10 @@ Plugin 'slim-template/vim-slim'
 Plugin 'ap/vim-css-color'
 Plugin 'cespare/vim-toml'
 Plugin 'robbles/logstash.vim'
+Plugin 'mxw/vim-jsx'
+Plugin 'jparise/vim-graphql'
+Plugin 'styled-components/vim-styled-components'
+Plugin 'nikvdp/ejs-syntax'
 
 call vundle#end()
 
