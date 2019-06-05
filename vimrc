@@ -5,10 +5,12 @@ call vundle#begin()
 " Navigation and other core stuff
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'scrooloose/nerdtree'
+Plugin 'jistr/vim-nerdtree-tabs'
 Plugin 'tpope/vim-eunuch' " Git helpers
 Plugin '907th/vim-auto-save'
 Plugin 'severin-lemaignan/vim-minimap'
 Plugin 'dkprice/vim-easygrep'
+Plugin 'othree/eregex.vim'
 
 " Version Control
 Plugin 'Xuyuanp/nerdtree-git-plugin'
@@ -22,13 +24,17 @@ Plugin 'Shougo/neocomplete.vim'
 Plugin 'godlygeek/tabular'
 Plugin 'ervandew/supertab'
 
-" Aestethic
+" Aestethic and UX
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'ryanoasis/vim-devicons'
-Plugin 'flazz/vim-colorschemes'
 Plugin 'kien/rainbow_parentheses.vim'
+
+" Colorschemes
+Plugin 'flazz/vim-colorschemes'
+Plugin 'szorfein/fromthehell.vim'
+Plugin 'sansbrina/vim-garbage-oracle'
 
 " Language specific
 Plugin 'kchmck/vim-coffee-script'
@@ -50,6 +56,10 @@ Plugin 'mxw/vim-jsx'
 Plugin 'jparise/vim-graphql'
 Plugin 'styled-components/vim-styled-components'
 Plugin 'nikvdp/ejs-syntax'
+Plugin 'joker1007/vim-ruby-heredoc-syntax'
+Plugin 'leafgarland/typescript-vim'
+Plugin 'xolox/vim-misc' " Needed by plugin below
+Plugin 'xolox/vim-lua-ftplugin'
 
 call vundle#end()
 

@@ -32,7 +32,8 @@ noremap <Tab> >gv
 noremap <S-Tab> <gv
 
 " Map NERDTreeToggle to Ctrl+V
-noremap <C-n> :NERDTreeToggle<CR>
+noremap <C-n> :NERDTreeTabsToggle<CR>
+noremap <C-m> :NERDTreeFind %<CR>
 
 " Tab navigation like Firefox.
 nnoremap <C-S-tab>  :tabprevious<CR>
