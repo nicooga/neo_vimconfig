@@ -35,6 +35,8 @@ Plugin 'kien/rainbow_parentheses.vim'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'szorfein/fromthehell.vim'
 Plugin 'sansbrina/vim-garbage-oracle'
+Plugin 'mr-ubik/vim-hackerman-syntax'
+Plugin 'lucasprag/simpleblack'
 
 " Language specific
 Plugin 'kchmck/vim-coffee-script'
@@ -57,9 +59,12 @@ Plugin 'jparise/vim-graphql'
 Plugin 'styled-components/vim-styled-components'
 Plugin 'nikvdp/ejs-syntax'
 Plugin 'joker1007/vim-ruby-heredoc-syntax'
+Plugin 'noprompt/vim-yardoc'
 Plugin 'leafgarland/typescript-vim'
 Plugin 'xolox/vim-misc' " Needed by plugin below
 Plugin 'xolox/vim-lua-ftplugin'
+Plugin 'tbastos/vim-lua'
+Plugin 'martinda/Jenkinsfile-vim-syntax'
 
 call vundle#end()
 

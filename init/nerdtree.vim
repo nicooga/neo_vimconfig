@@ -1,5 +1,6 @@
 " Horizontal size. It's too small by default
 let g:NERDTreeWinSize=60
+let NERDTreeShowHidden=1
 
 " This is supposed to fix an issue with a plugin that adds file icons
 " to files in NERDTree. The plugin generates extra spacing for names
