@@ -1,5 +1,6 @@
 set nocompatible
 set rtp+=~/.vim/bundle/Vundle.vim
+
 call vundle#begin()
 
 " Navigation and other core stuff
@@ -38,6 +39,9 @@ Plugin 'sansbrina/vim-garbage-oracle'
 Plugin 'mr-ubik/vim-hackerman-syntax'
 Plugin 'lucasprag/simpleblack'
 
+" Other
+Plugin 'zerowidth/vim-copy-as-rtf'
+
 " Language specific
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'elixir-lang/vim-elixir'
@@ -65,6 +69,9 @@ Plugin 'xolox/vim-misc' " Needed by plugin below
 Plugin 'xolox/vim-lua-ftplugin'
 Plugin 'tbastos/vim-lua'
 Plugin 'martinda/Jenkinsfile-vim-syntax'
+Plugin 'isRuslan/vim-es6'
+Plugin 'Valloric/MatchTagAlways'
+Plugin 'alvan/vim-closetag'
 
 call vundle#end()
 

@@ -51,4 +51,4 @@ nnoremap <C-k> ddkP
 nnoremap <C-j> ddp
 
 " Replace word under cursor
-nnoremap <Leader>rw :%s/\<<C-r><C-w>\>/
+nnoremap <Leader>rw :%s/\<<C-r><C-w>\>/<C-r><C-w>

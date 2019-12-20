@@ -33,7 +33,7 @@ set wrap
 let g:IndentLine_noConcealCursor=""
 
 " Ignore ./bower_components and othe JS stuff
-set wildignore+=*/bower_components/*,*/node_modules
+set wildignore+=*/bower_components/*,*/node_modules,*.swp
 
 " Ignore HTML warnings related to Angular
 let g:syntastic_html_tidy_ignore_errors=["proprietary attribute \"ng-"]
