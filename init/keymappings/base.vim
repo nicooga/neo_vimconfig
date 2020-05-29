@@ -24,8 +24,6 @@ nnoremap <leader>sv :source $MYVIMRC<CR>
 nnoremap <leader>pi :PluginInstall<CR>
 " Open package.json
 nnoremap <leader>ep :tabedit package.json<CR>
-" Open brunch-config.js
-nnoremap <leader>eb :tabedit brunch-config.js<CR>
 
 " Use Tab key to indent blocks
 noremap <Tab> >gv
@@ -39,9 +37,6 @@ noremap <C-m> :NERDTreeFind %<CR>
 nnoremap <C-S-tab>  :tabprevious<CR>
 nnoremap <C-tab>    :tabnext<CR>
 nnoremap <C-t>      :tabnew<CR>
-inoremap <C-S-tab>  <Esc>:tabprevious<CR>i
-inoremap <C-tab>    <Esc>:tabnext<CR>i
-inoremap <C-t>      <Esc>:tabnew<CR>
 nnoremap <C-Delete> :tabclose<CR>
 
 " Move line down and up

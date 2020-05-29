@@ -1,12 +1,15 @@
 set background=dark
 
 if has('gui_running')
-  set guifont=monofur\ for\ Powerline\ 14
+  set guifont=monofur\ for\ Powerline\ 10
   let g:airline_theme='base16'
 
   "colorscheme Atelier_PlateauLight
   "colorscheme pencil
   colorscheme alduin
+  "colorscheme arcadia
+  "colorscheme 3dglasses
+  "colorscheme  aquamarine " Great diff colors
 
   let g:gruvbox_contrast_dark='hard'
   let g:gruvbox_italicize_strings=1

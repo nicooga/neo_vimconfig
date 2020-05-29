@@ -13,6 +13,12 @@ Plugin 'severin-lemaignan/vim-minimap'
 Plugin 'dkprice/vim-easygrep'
 Plugin 'othree/eregex.vim'
 
+" Snippets
+Plugin 'epilande/vim-es2015-snippets'
+Plugin 'epilande/vim-react-snippets'
+Plugin 'honza/vim-snippets'
+Plugin 'SirVer/ultisnips'
+
 " Version Control
 Plugin 'Xuyuanp/nerdtree-git-plugin'
 Plugin 'tpope/vim-fugitive'
@@ -21,9 +27,8 @@ Plugin 'airblade/vim-gitgutter'
 " Typing
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'scrooloose/nerdcommenter'
-Plugin 'Shougo/neocomplete.vim'
 Plugin 'godlygeek/tabular'
-Plugin 'ervandew/supertab'
+Plugin 'ycm-core/YouCompleteMe' " Autocompeltion
 
 " Aestethic and UX
 Plugin 'nathanaelkane/vim-indent-guides'
@@ -51,7 +56,7 @@ Plugin 'digitaltoad/vim-pug'
 Plugin 'jwalton512/vim-blade'
 Plugin 'slashmili/alchemist.vim'
 Plugin 'slime-lang/vim-slime-syntax'
-Plugin 'suan/vim-instant-markdown'
+Plugin 'iamcco/markdown-preview.vim'
 Plugin 'wavded/vim-stylus'
 Plugin 'ekalinin/Dockerfile.vim'
 Plugin 'slim-template/vim-slim'
@@ -72,6 +77,7 @@ Plugin 'martinda/Jenkinsfile-vim-syntax'
 Plugin 'isRuslan/vim-es6'
 Plugin 'Valloric/MatchTagAlways'
 Plugin 'alvan/vim-closetag'
+Plugin 'isobit/vim-caddyfile'
 
 call vundle#end()
 

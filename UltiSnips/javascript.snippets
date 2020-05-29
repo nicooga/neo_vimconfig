@@ -1,0 +1,52 @@
+snippet muiimport "Import a react compoent"
+import $1 from '@material-ui/core/$1'
+endsnippet
+
+snippet rfc "React functional component" 
+import React from 'react'
+import PropTypes from 'prop-types'
+
+const ${1:`!v expand('%:t:r')`} = ({ $3 }) => {
+	return (
+		<${5:div}>
+		  Imma sparkling new componetn
+		</$5>
+	)
+}
+
+$1.defaultProps = {$4}
+
+$1.propTypes = {`!p
+props = t[3]
+if props:
+  snip >> 1
+  for prop in props.split(', '):
+    snip += prop + ': PropTypes.any,'
+`
+}
+
+export default $1
+endsnippet
+
+snippet rba "React business action"
+import { useMutation } from '@apollo/react-hooks'
+import { $2 } from '$src/queries'
+
+const SUCCESS_MESSAGE = ''
+
+const $1 = ({ refetchQueries = [] }) => {
+  const [mutate] = useMutation($2, { refetchQueries })
+
+  const execute = async ({ $3 }) => {
+    const variables = { input: { $3 } }
+    await removeTeamMember({ variables })
+  }
+
+  return {
+    execute,
+    successMessage: SUCCESS_MESSAGE
+  }
+}
+
+export default $1
+endsnippet

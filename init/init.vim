@@ -38,9 +38,6 @@ set wildignore+=*/bower_components/*,*/node_modules,*.swp
 " Ignore HTML warnings related to Angular
 let g:syntastic_html_tidy_ignore_errors=["proprietary attribute \"ng-"]
 
-" Enable neocomplete
-let g:neocomplete#enable_at_startup = 1
-
 " Enable plugins to access filetype
 filetype plugin on
 

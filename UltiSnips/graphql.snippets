@@ -1,0 +1,29 @@
+snippet searchtypes "description"
+enum $1SearchOrderIdentifier {
+  createdAt
+}
+
+input $1SearchOrder {
+  identifier: $1SearchOrderIdentifier!
+  direction: SearchOrderDirection
+}
+
+input $1SearchFilters {
+}
+
+input $1SearchInput {
+  page: Int
+  recordsPerPage: Int
+  limit: Int
+  filters: $1SearchFilters
+  orderBy: [$1SearchOrder]
+}
+
+type $1Page implements RecordPage {
+  page: Int
+  totalPages: Int
+  total: Int
+  recordsPerPage: Int
+  data: [$1]!
+}
+endsnippet
